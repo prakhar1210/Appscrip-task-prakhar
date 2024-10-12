@@ -1,0 +1,17 @@
+.HeroSection1 {
+  font-family: Simplon Norm, sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: 1px;
+  text-align: center;
+  /* background: #252020; */
+}
+.HeroSection2 {
+  font-family: Simplon Norm;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+  /* background: #252020; */
+}

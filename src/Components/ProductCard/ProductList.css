@@ -1,0 +1,10 @@
+.product-list {
+  display: grid; /* Use grid layout for the list */
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(330px, 1fr)
+  ); /* Responsive grid */
+  gap: 16px; /* Space between product cards */
+  padding: 20px; /* Padding around the grid */
+  width: 100%; /* Set full width for testing */
+}

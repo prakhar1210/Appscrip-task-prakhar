@@ -1,0 +1,41 @@
+.RectangularMenuContainer {
+  width: 1248px; /* Width of the container */
+  height: 88px; /* Height of the container */
+  gap: 0; /* Gap between items (if applicable) */
+  opacity: 1; /* Set to 1 to make it visible */
+  border-top: 1px solid black; /* Top border */
+  border-bottom: 2px solid black; /* Bottom border */
+  padding: 10px;
+  display: flex; /* Use flexbox to align items */
+  justify-content: space-between; /* Space items evenly */
+  align-items: center; /* Center items vertically */
+  margin-left: 250px;
+}
+
+.RectangularMenu1 {
+  display: flex;
+  justify-content: space-between; /* Aligns items to the ends */
+  align-items: center;
+  gap: 50px; /* Space between items in the menu */
+}
+
+.RectangularMenu-InnerMenu {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  position: relative; /* Position relative to allow absolute positioning of dropdown */
+  flex-grow: 1; /* Allow the inner menu to take up remaining space */
+}
+
+.dropdown-wrapper {
+  margin-left: auto; /* Pushes dropdown to the right */
+}
+
+.dropdown-select {
+  padding: 10px; /* Adjust padding as needed */
+  font-size: 16px; /* Font size for the dropdown */
+  border: 1px solid #ccc; /* Border for the dropdown */
+  border-radius: 4px; /* Rounded corners for the dropdown */
+  cursor: pointer; /* Pointer cursor on hover */
+  gap: 500px;
+}
+/* position: absolute; Use absolute positioning if top/left are defined */

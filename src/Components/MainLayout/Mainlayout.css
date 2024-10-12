@@ -1,0 +1,18 @@
+.main-layout {
+  display: flex; /* Use flexbox for layout */
+  gap: 24px; /* Space between filter and product list */
+}
+
+.filter-container {
+  flex: 0 0 300px; /* Fixed width for the filter */
+}
+
+.product-list-container {
+  flex: 1; /* Allow the product list to take the remaining space */
+  display: grid; /* Use grid for product cards */
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(330px, 1fr)
+  ); /* Responsive grid */
+  gap: 16px; /* Space between product cards */
+}

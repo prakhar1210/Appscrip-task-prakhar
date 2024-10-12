@@ -1,0 +1,36 @@
+.product-list {
+  display: grid; /* Use grid layout for the list */
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(330px, 1fr)
+  ); /* Create responsive grid */
+  gap: 16px; /* Space between product cards */
+}
+.FilterMenuMainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: Fixed (300px) px;
+  height: Hug (846px) px;
+  top: 652px;
+  margin-left: 250px;
+  gap: 24px;
+  opacity: 0px;
+}
+.FilterMenu-Checkbox {
+  width: 300px;
+  height: 5px;
+  gap: 5px;
+  border-bottom: 2px solid grey;
+  opacity: 0px;
+  text-align: left;
+  margin-top: 5px;
+}
+.FilterMenu-Dropdown {
+  width: 300px;
+  margin-bottom: 24px; /* Space between dropdowns */
+  border-bottom: 2px solid grey; /* Bottom border */
+  padding-bottom: 10px;
+  text-align: left;
+}
